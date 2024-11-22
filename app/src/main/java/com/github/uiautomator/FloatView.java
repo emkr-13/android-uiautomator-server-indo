@@ -22,30 +22,36 @@ public class FloatView extends FrameLayout {
 
     /**
      * 记录手指按下时在小悬浮窗的View上的横坐标的值
+     * Record the value of the horizontal coordinate on the View of the small floating window when the finger is pressed
      */
     private float xInView;
 
     /**
      * 记录手指按下时在小悬浮窗的View上的纵坐标的值
+     * Record the value of the vertical coordinate on the View of the small floating window when the finger is pressed
      */
     private float yInView;
     /**
      * 记录当前手指位置在屏幕上的横坐标值
+     * Record the horizontal coordinate value of the current finger position on the screen
      */
     private float xInScreen;
 
     /**
      * 记录当前手指位置在屏幕上的纵坐标值
+     * Record the vertical coordinate value of the current finger position on the screen
      */
     private float yInScreen;
 
     /**
      * 记录手指按下时在屏幕上的横坐标的值
+     * Record the value of the horizontal coordinate on the screen when the finger is pressed
      */
     private float xDownInScreen;
 
     /**
      * 记录手指按下时在屏幕上的纵坐标的值
+     * Record the value of the vertical coordinate on the screen when the finger is pressed
      */
     private float yDownInScreen;
 

@@ -289,7 +289,7 @@ public class FloatWindowManager {
     }
 
     private void showConfirmDialog(Context context, OnConfirmResult result) {
-        showConfirmDialog(context, "您的手机没有授予悬浮窗权限，请开启后再试", result);
+        showConfirmDialog(context, "Your phone does not grant floating window permission, please enable it and try again", result);
     }
 
     private void showConfirmDialog(Context context, String message, final OnConfirmResult result) {
@@ -299,14 +299,14 @@ public class FloatWindowManager {
 
         dialog = new AlertDialog.Builder(context).setCancelable(true).setTitle("")
                 .setMessage(message)
-                .setPositiveButton("现在去开启",
+                .setPositiveButton("Now go to open",
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 result.confirmResult(true);
                                 dialog.dismiss();
                             }
-                        }).setNegativeButton("暂不开启",
+                        }).setNegativeButton("Not enabled yet",
                         new DialogInterface.OnClickListener() {
 
                             @Override
